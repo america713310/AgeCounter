@@ -4,7 +4,7 @@
   "description": "That's my age-counter project.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --port 4000 --hot --inline --watch --progress",
+    "start": "webpack-dev-server --port 80",
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
     "build": "webpack -p",
     "deploy": "mern-scripts deploy"
