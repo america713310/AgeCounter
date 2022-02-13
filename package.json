@@ -9,6 +9,7 @@
     "build": "webpack -p",
     "deploy": "mern-scripts deploy"
   },
+  
   "engines": {
     "node": "^8.5.0"
   },
